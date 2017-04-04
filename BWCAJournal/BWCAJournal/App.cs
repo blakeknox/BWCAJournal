@@ -32,6 +32,7 @@ namespace BWCAJournal
                         {
                             HorizontalOptions = LayoutOptions.Center,
                           Text = "Veiw Previous Journal Entry"
+
                         }
                     }
                 }
