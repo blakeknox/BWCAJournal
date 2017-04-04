@@ -21,7 +21,17 @@ namespace BWCAJournal
                     Children = {
                         new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
+                            Text = "Welcome to Your BWCA Trip Log!"
+                        },
+                        new Button
+                        {
+                          HorizontalOptions = LayoutOptions.Center,
+                          Text = "New Journal Entry"
+                        },
+                        new Button
+                        {
+                            HorizontalOptions = LayoutOptions.Center,
+                          Text = "Veiw Previous Journal Entry"
                         }
                     }
                 }
