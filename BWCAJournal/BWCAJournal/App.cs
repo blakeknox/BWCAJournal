@@ -31,7 +31,7 @@ namespace BWCAJournal
                         new Button
                         {
                             HorizontalOptions = LayoutOptions.Center,
-                          Text = "Veiw Previous Journal Entry"
+                          Text = "View Previous Journal Entry"
 
                         }
                     }
