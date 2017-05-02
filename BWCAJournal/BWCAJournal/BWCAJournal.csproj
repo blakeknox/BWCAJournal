@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="HomePage.cs" />
     <Compile Include="JournalEntry.cs" />
     <Compile Include="OldJournal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

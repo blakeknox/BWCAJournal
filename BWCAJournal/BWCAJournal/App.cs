@@ -22,7 +22,7 @@ namespace BWCAJournal
                         new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
                             Text = "Welcome to Your BWCA Trip Log!"
-                        },
+                        }, 
                         new Button
                         {
                           HorizontalOptions = LayoutOptions.Center,
@@ -30,15 +30,15 @@ namespace BWCAJournal
                         },
                         new Button
                         {
-                            HorizontalOptions = LayoutOptions.Center,
-                          Text = "View Previous Journal Entry"
-
-                        }
+                          HorizontalOptions = LayoutOptions.Center,
+                          Text = "View Previous Journal Entry",
+                        }   
                     }
                 }
             };
 
-            MainPage = new NavigationPage(content);
+
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
