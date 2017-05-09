@@ -12,32 +12,7 @@ namespace BWCAJournal
         public App()
         {
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "BWCAJournal",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Your BWCA Trip Log!"
-                        }, 
-                        new Button
-                        {
-                          HorizontalOptions = LayoutOptions.Center,
-                          Text = "New Journal Entry"
-                        },
-                        new Button
-                        {
-                          HorizontalOptions = LayoutOptions.Center,
-                          Text = "View Previous Journal Entry",
-                        }   
-                    }
-                }
-            };
-
-
+           
             MainPage = new NavigationPage(new HomePage());
         }
 

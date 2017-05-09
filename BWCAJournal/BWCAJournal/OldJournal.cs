@@ -12,10 +12,17 @@ namespace BWCAJournal
     {
         public OldJournal()
         {
+            Label Title = new Label
+            {
+                HorizontalOptions = LayoutOptions.Center,
+                Text = "Review Your Old Jounrnal Entries",
+                FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Button))
+            };
             Content = new StackLayout
             {
+                BackgroundColor = Color.Olive,
                 Children = {
-                    new Label { Text = "Review previous entries" }
+                    Title
                 }
             };
         }

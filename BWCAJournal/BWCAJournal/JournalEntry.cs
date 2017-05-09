@@ -12,10 +12,22 @@ namespace BWCAJournal
     {
         public JournalEntry()
         {
+            Padding = new Thickness(10);
+            Label Title = new Label
+            {
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                Text = "Enter a New Journal Entry",
+                FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Button))
+            };
+            
+            
             Content = new StackLayout
             {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                BackgroundColor = Color.Olive,
                 Children = {
-                    new Label { Text = "Journal Entry" }
+                    Title
                 }
             };
         }
