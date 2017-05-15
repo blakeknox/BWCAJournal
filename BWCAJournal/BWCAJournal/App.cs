@@ -12,6 +12,7 @@ namespace BWCAJournal
         public App()
         {
             // The root page of your application
+           //Backgroundcolor = Color.Olive;
            
             MainPage = new NavigationPage(new HomePage());
         }
